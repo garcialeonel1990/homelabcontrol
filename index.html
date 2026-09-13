@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homelab Control Center</title>
+    <meta name="description" content="Centro de control para gestionar servicios homelab desde una interfaz unificada" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="page-shell">
+      <header class="header">
+        <div class="header-pill">
+          <h1>Homelab Control Center</h1>
+          <span class="header-version">V02.08.2026</span>
+        </div>
+      </header>
+
+      <section class="ip-section">
+        <div class="ip-controls">
+          <div class="ip-input-wrap">
+            <input
+              type="text"
+              id="ipInput"
+              placeholder="192.168.100.43 "
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <button id="pasteBtn" class="icon-btn" type="button" title="Pegar desde portapapeles">Paste</button>
+          </div>
+          <button id="resetBtn" class="round-btn" type="button" title="Recargar pagina">Reset</button>
+        </div>
+      </section>
+
+      <main>
+        <section id="cardsGrid" class="cards-grid" aria-label="Servicios"></section>
+      </main>
+
+    </div>
+
+    <div id="toastContainer" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
