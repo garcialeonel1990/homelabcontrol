@@ -12,6 +12,7 @@ const SERVICES = [
   { name: "Transmission", description: "Cliente Torrent", port: "9091", color: "bg-tech-red", protocol: "http", path: "", icon: "TR" },
   { name: "Chromium", description: "Navegador web", port: "3001", color: "bg-tech-orange", protocol: "https", path: "", icon: "CR" },
   { name: "Portainer", description: "Gestion de Docker", port: "9443", color: "bg-tech-purple", protocol: "https", path: "/#!/home", icon: "PT" },
+  { name: "CleanUpArr", description: "Limpieza automatica", port: "11011", color: "bg-tech-green", protocol: "http", path: "", icon: "CU" },
 
 ];
 
