@@ -11,6 +11,7 @@ const SERVICES = [
   { name: "Jellyfin", description: "Gestor multimedia", port: "8096", color: "bg-tech-cyan", protocol: "http", path: "", icon: "JF" },
   { name: "Transmission", description: "Cliente Torrent", port: "9091", color: "bg-tech-red", protocol: "http", path: "", icon: "TR" },
   { name: "Chromium", description: "Navegador web", port: "3001", color: "bg-tech-orange", protocol: "https", path: "", icon: "CR" },
+  { name: "Trading View", description: "Plataforma de gráficos", port: "3002", color: "bg-tech-blue", protocol: "https", path: "", icon: "TV" },
   { name: "Portainer", description: "Gestion de Docker", port: "9443", color: "bg-tech-purple", protocol: "https", path: "/#!/home", icon: "PT" },
   { name: "CleanUpArr", description: "Limpieza automatica", port: "11011", color: "bg-tech-green", protocol: "http", path: "", icon: "CU" },
   { name: "MeTube", description: "Descargar videos de YouTube", port: "8086", color: "bg-tech-red", protocol: "http", path: "", icon: "MT" },
