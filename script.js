@@ -14,7 +14,7 @@ const SERVICES = [
   { name: "Trading View", description: "Plataforma de gráficos", port: "3002", color: "bg-tech-blue", protocol: "https", path: "", icon: "TV" },
   { name: "Portainer", description: "Gestion de Docker", port: "9443", color: "bg-tech-purple", protocol: "https", path: "/#!/home", icon: "PT" },
   { name: "CleanUpArr", description: "Limpieza automatica", port: "11011", color: "bg-tech-green", protocol: "http", path: "", icon: "CU" },
-  { name: "Youtarr", description: "Descargar videos de YouTube", port: "3087", color: "bg-tech-red", protocol: "http", path: "", icon: "YT" },
+  { name: "Youtarr", description: "Descargar videos de YouTube", port: "3087/downloads/manual", color: "bg-tech-red", protocol: "http", path: "", icon: "YT" },
 
 ];
 
